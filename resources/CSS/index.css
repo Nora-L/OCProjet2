@@ -1,7 +1,19 @@
-i {
-  border-radius: 50%;
-  background: rgb(136, 99, 151);
-  box-sizing: border-box;
-  border: 2px solid transparent;
-  transition:.5s;
+h1 {
+    font-family: 'OpenSans-CondLight';
+}
+
+@font-face {
+    font-family: 'OpenSans-CondLight';
+    src: url('OpenSans-CondLight-webfont.eot');
+    src: url('OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-CondLight-webfont.woff') format('woff'),
+        url('OpenSans-CondLight-webfont.ttf') format('truetype'),
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
 }
