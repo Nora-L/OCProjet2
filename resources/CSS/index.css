@@ -1,0 +1,7 @@
+i {
+  border-radius: 50%;
+  background: rgb(136, 99, 151);
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  transition:.5s;
+}
