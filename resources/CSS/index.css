@@ -1,17 +1,18 @@
-h1 {
-    font-family: 'OpenSans-CondLight';
+html {
+    font-family: 'OpenSans';
 }
 
 @font-face {
-    font-family: 'OpenSans-CondLight';
-    src: url('OpenSans-CondLight-webfont.eot');
-    src: url('OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-CondLight-webfont.woff') format('woff'),
-        url('OpenSans-CondLight-webfont.ttf') format('truetype'),
+    font-family: 'OpenSans';
+    src: url('web fonts/OpenSans-CondLight-webfont.eot');
+    src: url('web fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('web fonts/OpenSans-CondLight-webfont.woff') format('woff'),
+        url('web fonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
+        url('OpenSans-CondLight-webfont.svg') format('svg');
 }
 
 h1 {
-    font-size: x-large;
+    font-size: 50px;
 }
 
 h2 {
