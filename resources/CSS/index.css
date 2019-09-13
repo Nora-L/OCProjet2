@@ -1,11 +1,11 @@
 /*Page entiere*/
 
-html {
+html{
     font-family: 'OpenSans';
     background-color: black;
 }
 
-@font-face {
+@font-face{
     font-family: 'OpenSans';
     src: url('web fonts/OpenSans-CondLight-webfont.eot');
     src: url('web fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
@@ -14,60 +14,83 @@ html {
         url('OpenSans-CondLight-webfont.svg') format('svg');
 }
 
-aside {
+aside{
     background-color: #0097A7;
     float: left;
-    width: 25%;
+    width: 15%;
     height: 100%;
     padding: 50px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.principal {
+.principal{
     float: right;
-    width: 60%;
+    width: 45%;
     height: 100%;
     background-color: white;
     padding: 50px;
-    margin: auto;
-}
-
-img{
-    border: 10px #00796B solid;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    display: block;
+    margin-right: auto;
     margin-left: auto;
-    margin-right: auto
-    
 }
 
-#conteneur {
+#conteneur{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+/*Image*/
+
+img{
+    border: 10px #00796B solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
  /*titres*/
 
-h1 {
+h1{
     font-size:5em;
 }
-h2 {
-     font-size: 3em;
+h2{
+    font-size: 2em;
 }
 
- /*bordures*/
+.titre_droite{
+    background-color: #424242;
+    width: 100%;
+    color: #0097A7;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*paragraphes*/
+
+p{
+    font-size: 1.5em;
+}
+
+li{
+    font-size: 2em;
+}
+
+/*bordures*/
  
-hr {
+hr{
      width: 90%;
-     border: solid 2px #0097A7;
+     border: solid 1px #0097A7;
 }
 
 /*Icônes*/
 
-i {
+i{
     display: block;
     color: #00BFA5;
     background-color: 
@@ -77,7 +100,12 @@ i {
     border-radius: 50%;
 }
 
-#fa-stack {
+#fa-stack{
     display: flex;
     justify-content: space-around;
+}
+
+body{
+    display: flex;
+    justify-content: center;
 }
