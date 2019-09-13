@@ -12,14 +12,16 @@ html {
 }
 
 aside {
-    background-color: indianred;
+    background-color: #0097A7;
     float: left;
     width: 15%;
+    height: 100%;
 }
 
 div, section {
     float: right;
     width: 85%;
+    height: 100%;
 }
 
 img{
@@ -31,3 +33,12 @@ img{
     margin-left: auto;
     margin-right: auto
 }
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:1024px)
