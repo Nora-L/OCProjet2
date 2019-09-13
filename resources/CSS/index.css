@@ -19,8 +19,8 @@ aside {
     float: left;
     width: 25%;
     height: 100%;
-    padding: 10px;
-    margin: 40px;
+    padding: 50px;
+    margin: auto;
 }
 
 .principal {
@@ -28,7 +28,8 @@ aside {
     width: 60%;
     height: 100%;
     background-color: white;
-    padding: 40px;
+    padding: 50px;
+    margin: auto;
 }
 
 img{
@@ -74,4 +75,9 @@ i {
     font-size: 40px;
     border: 10px solid black;
     border-radius: 50%;
+}
+
+#fa-stack {
+    display: flex;
+    justify-content: space-around;
 }
