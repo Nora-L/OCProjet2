@@ -1,5 +1,8 @@
+/*Page entiere*/
+
 html {
     font-family: 'OpenSans';
+    background-color: black;
 }
 
 @font-face {
@@ -14,31 +17,61 @@ html {
 aside {
     background-color: #0097A7;
     float: left;
-    width: 15%;
+    width: 25%;
     height: 100%;
+    padding: 10px;
+    margin: 40px;
 }
 
-div, section {
+.principal {
     float: right;
-    width: 85%;
+    width: 60%;
     height: 100%;
+    background-color: white;
+    padding: 40px;
 }
 
 img{
-    border: 1px black solid;
+    border: 10px #00796B solid;
     border-radius: 50%;
-    width: 110px;
-    height: 110px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto
+    
 }
 
 #conteneur {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
-@media screen and (max-width:1024px)
+ /*titres*/
+
+h1 {
+    font-size:5em;
+}
+h2 {
+     font-size: 3em;
+}
+
+ /*bordures*/
+ 
+hr {
+     width: 90%;
+     border: solid 2px #0097A7;
+}
+
+/*Icônes*/
+
+i {
+    display: block;
+    color: #00BFA5;
+    background-color: 
+    black;
+    font-size: 40px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
