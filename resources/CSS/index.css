@@ -1,11 +1,13 @@
 /*Page entiere*/
 
-html{
+html
+{
     font-family: 'OpenSans';
     background-color: black;
 }
 
-@font-face{
+@font-face
+{
     font-family: 'OpenSans';
     src: url('web fonts/OpenSans-CondLight-webfont.eot');
     src: url('web fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
@@ -16,7 +18,9 @@ html{
 
 /*Main droit*/
 
-aside{
+aside
+{
+    display: block;
     background-color: #0097A7;
     float: left;
     width: 15%;
@@ -27,7 +31,9 @@ aside{
 
 /*Main Gauche*/
 
-.principal{
+.principal
+{
+    display: block;
     float: right;
     width: 45%;
     height: 100%;
@@ -40,21 +46,24 @@ aside{
 
 /*flexbox gauche*/
 
-#conteneur{
+#conteneur
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
 }
 
-.element:nth-child(3){
+.element:nth-child(3)
+{
     flex: 2;
 }
 
 
 /*Image*/
 
-img{
+img
+{
     border: 3px #00796B solid;
     border-radius: 50%;
     width: 150px;
@@ -66,14 +75,18 @@ img{
 
  /*titres*/
 
-h1{
+h1
+{
     font-size:4em;
 }
-h2{
+
+h2
+{
     font-size: 2em;
 }
 
-.titre_droite{
+.titre_droite
+{
     background-color: #424242;
     width: 100%;
     color: #0097A7;
@@ -84,30 +97,38 @@ h2{
 
 /*paragraphes*/
 
-p{
-    font-size: 1.5em;
-}
-
-li{
+li
+{
     font-size: 1em;
 }
 
-.pleft{
+.pleft
+{
     font-size: 1.2em;
     padding-right: 10%;
     padding-left: 10%;
 }
 
+.rightp
+{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 0 300px;
+}
+
 /*bordures*/
  
-hr{
+hr
+{
      border: solid 1px #0097A7;
 }
 
 
 /*Icônes*/
 
-i{
+i
+{
     display: block;
     color: #00BFA5;
     background-color: 
@@ -117,12 +138,14 @@ i{
     border-radius: 50%;
 }
 
-#fa-stack{
+#fa-stack
+{
     display: flex;
     justify-content: space-around;
 }
 
-body{
+body
+{
     display: flex;
     justify-content: center;
     height: 100;
