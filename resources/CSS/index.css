@@ -28,7 +28,7 @@ html
 
 aside
 {
-    background-color: #0097A7;
+    background-color: #ff8a80;
     width: 20%;
 }
 
@@ -56,12 +56,17 @@ aside
     flex: 2;
 }
 
+.element:nth-child(4)
+{
+    flex: 0.3;
+}
+
 
 /*Image*/
 
 img
 {
-    border: 3px #00796B solid;
+    border: 3px #ff5252 solid;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -69,6 +74,7 @@ img
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 
  /*titres*/
@@ -84,14 +90,15 @@ h2
     font-size: 2em;
 }
 
-.titre_droite
+.lefttitle
 {
     background-color: #424242;
     width: 100%;
-    color: #0097A7;
+    color: #ff8a80;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 24px;
 }
 
 /*paragraphes*/
@@ -106,13 +113,18 @@ li
     font-size: 20px;
 }
 
-
+.pleft
+{
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+}
 
 /*bordures*/
  
 hr
 {
-     border: solid 0.5px #0097A7;
+     border: solid 0.5px #ff8a80;
      margin: -16px;
 }
 
@@ -124,20 +136,26 @@ hr
 
 /*Icônes*/
 
-i
+.plain
 {
-    color: #00BFA5;
-    background-color: black;
-    font-size: 35px;
+    color: #ff8a80;
+    font-size: 30px;
+}
+
+.icones
+{
+    color: #ff8a80;
+    background-color: #424242;
+    font-size: 30px;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    line-height: 60px !important;
+    line-height: 50px !important;
 }
 
 #icones
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
