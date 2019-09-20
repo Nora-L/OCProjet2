@@ -120,6 +120,18 @@ li
     text-align: justify;
 }
 
+.bloc
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.child:nth-child(1)
+{
+    flex: 1;
+}
+
 /*bordures*/
  
 hr
@@ -159,3 +171,4 @@ hr
     display: flex;
     justify-content: space-evenly;
 }
+
