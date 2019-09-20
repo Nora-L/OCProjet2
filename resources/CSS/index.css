@@ -18,9 +18,9 @@ html
 
 #content
 {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
     align-items: stretch;
 }
 
@@ -38,8 +38,8 @@ aside
 {
     width: 35%;
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /*flexbox gauche*/
@@ -83,6 +83,7 @@ h1 {
     font-size: 3em;
     margin-top: 93px;
     margin-bottom: -22px;
+    margin-left: -16px;
 }
 
 h2
@@ -103,6 +104,10 @@ h2
 
 /*paragraphes*/
 
+ul
+{
+    margin-left: -90px;
+}
 li
 {
     font-size: 1em;
@@ -111,12 +116,13 @@ li
 #subtitle
 {
     font-size: 20px;
+    margin-left: -16px;
 }
 
 .pleft
 {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-align: justify;
 }
 
@@ -127,9 +133,9 @@ li
     text-align: justify;
 }
 
-.child:nth-child(1)
+.child
 {
-    flex: 1;
+    width: 214px;
 }
 
 /*bordures*/
@@ -172,3 +178,12 @@ hr
     justify-content: space-evenly;
 }
 
+.dots
+{
+    
+    font-size: 11px;
+    width: 28px;
+    margin: -38px;
+    line-height: 130px !important;
+    color: #ff8a80;
+}
