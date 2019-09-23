@@ -1,3 +1,4 @@
+
 /*Page entiere*/
 
 html
@@ -62,9 +63,9 @@ aside
 }
 
 
-/*Image*/
+/*Images*/
 
-img
+#photo
 {
     border: 3px #ff5252 solid;
     border-radius: 50%;
@@ -75,6 +76,12 @@ img
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 25px;
+}
+
+.flags
+{
+    width: 50px;
+    height: 50px; 
 }
 
  /*titres*/
@@ -186,4 +193,13 @@ hr
     margin: -38px;
     line-height: 130px !important;
     color: #ff8a80;
+}
+
+
+.ibot
+{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    color: #424242
 }
