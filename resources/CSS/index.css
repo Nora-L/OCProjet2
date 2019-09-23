@@ -84,11 +84,24 @@ aside
     height: 50px; 
 }
 
+#footer
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8px;
+}
+
+.logos
+{
+    width: 45px;
+    height: 57px;
+}
+
  /*titres*/
 
 h1 {
     font-size: 3em;
-    margin-top: 93px;
+    margin-top: 85px;
     margin-bottom: -22px;
     margin-left: -16px;
 }
@@ -145,6 +158,11 @@ li
     width: 214px;
 }
 
+.iname
+{
+   font-size: 10px;
+}
+
 /*bordures*/
  
 hr
@@ -193,13 +211,4 @@ hr
     margin: -38px;
     line-height: 130px !important;
     color: #ff8a80;
-}
-
-
-.ibot
-{
-    font-size: 30px;
-    width: 70px;
-    height: 70px;
-    color: #424242
 }
