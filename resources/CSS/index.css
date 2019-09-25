@@ -35,12 +35,22 @@ aside
 
 /*Main Gauche*/
 
-.principal
+#principal
 {
     width: 35%;
     background-color: white;
     padding-left: 62px;
     padding-right: 50px;
+    align-self: flex-end
+}
+
+#top
+{
+    width: 35%;
+    background-color: white;
+    padding-left: 62px;
+    padding-right: 50px;
+
 }
 
 /*flexbox gauche*/
@@ -231,10 +241,25 @@ hr
 }
 
 
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 1024px)
 {
-    #bloc_page
+    #content
     {
-        width:auto;
+        flex-direction: column;
+    }
+
+    #conteneur
+    {
+        width: 100%;
+    }
+
+    #principal
+    {
+        width: 100%;
+    }
+
+    #top
+    {
+        order: 1;
     }
 }
