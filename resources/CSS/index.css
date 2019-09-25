@@ -39,8 +39,8 @@ aside
 {
     width: 35%;
     background-color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 62px;
+    padding-right: 50px;
 }
 
 /*flexbox gauche*/
@@ -69,8 +69,8 @@ aside
 {
     border: 3px #ff5252 solid;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -109,6 +109,7 @@ h1 {
 h2
 {
     font-size: 2em;
+    margin-left: -15px;
 }
 
 .lefttitle
@@ -146,6 +147,9 @@ li
     text-align: justify;
 }
 
+
+/*flexbox droite*/
+
 .bloc
 {
     display: flex;
@@ -153,9 +157,17 @@ li
     text-align: justify;
 }
 
-.child
+.childr
 {
-    width: 214px;
+    width: 200px;
+    margin-left: 94px;
+    flex-grow: 0.5;
+}
+
+.childl
+{
+    margin-right: -60px;
+    margin-left: 28px;
 }
 
 .iname
