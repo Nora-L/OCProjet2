@@ -10,10 +10,10 @@ html
 @font-face
 {
     font-family: 'OpenSans';
-    src: url('web fonts/OpenSans-CondLight-webfont.eot');
-    src: url('web fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
-        url('web fonts/OpenSans-CondLight-webfont.woff') format('woff'),
-        url('web fonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
+    src: url('webfonts/OpenSans-CondLight-webfont.eot');
+    src: url('webfonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/OpenSans-CondLight-webfont.woff') format('woff'),
+        url('webfonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
         url('OpenSans-CondLight-webfont.svg') format('svg');
 }
 
@@ -41,16 +41,6 @@ aside
     background-color: white;
     padding-left: 62px;
     padding-right: 50px;
-    align-self: flex-end
-}
-
-#top
-{
-    width: 35%;
-    background-color: white;
-    padding-left: 62px;
-    padding-right: 50px;
-
 }
 
 /*flexbox gauche*/
@@ -90,8 +80,8 @@ aside
 
 .flags
 {
-    width: 65px;
-    height: 65px; 
+    width: 75px;
+    height: 75px; 
 }
 
 #footer
@@ -103,8 +93,8 @@ aside
 
 .logos
 {
-    width: 54px;
-    height: 65px;
+    width: 65px;
+    height: 74px;
 }
 
  /*titres*/
@@ -246,6 +236,7 @@ hr
     #content
     {
         flex-direction: column;
+        width: 100%;
     }
 
     #conteneur
@@ -256,10 +247,18 @@ hr
     #principal
     {
         width: 100%;
+        flex-direction: column;
     }
 
-    #top
+    .bloc
     {
-        order: 1;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #footer
+    {
+        flex-direction: column;
+        width: 100%;
     }
 }
