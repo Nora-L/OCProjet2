@@ -237,11 +237,13 @@ hr
     {
         flex-direction: column;
         width: 100%;
+        align-items: stretch;
     }
 
     #conteneur
     {
         width: 100%;
+        align-content: stretch;
     }
 
     #principal
@@ -250,15 +252,4 @@ hr
         flex-direction: column;
     }
 
-    .bloc
-    {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #footer
-    {
-        flex-direction: column;
-        width: 100%;
-    }
 }
