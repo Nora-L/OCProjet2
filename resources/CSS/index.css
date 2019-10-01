@@ -189,8 +189,8 @@ hr
 
 #underline
 {
-    width: 59px;
-
+    width: 40px;
+    float: left;
 }
 
 /*Icônes*/
@@ -216,7 +216,7 @@ hr
 #icones
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 25px;
 }
 
@@ -238,12 +238,13 @@ hr
         flex-direction: column;
         width: 100%;
         align-items: stretch;
+
     }
 
     #conteneur
     {
         width: 100%;
-        align-content: stretch;
+        align-self: stretch;
     }
 
     #principal
